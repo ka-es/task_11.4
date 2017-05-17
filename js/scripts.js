@@ -1,3 +1,7 @@
+var iPhone6S,
+	galaxy,
+	onePlus;
+
 function Telefon(marka, cena, kolor, rozdz) { 
 	 this.marka = marka; 
 	 this.cena = cena; 
@@ -14,9 +18,9 @@ Telefon.prototype.printRozdz = function() {
 }
 
 
-var iPhone6S = new Telefon("Apple", 2250, "srebrny", "7\"");
-var galaxy = new Telefon("Samsung", 1250, "złoty", "9\"");
-var onePlus = new Telefon("OnePlus One", 250, "biały", "8\"");
+iPhone6S = new Telefon("Apple", 2250, "srebrny", "7\"");
+galaxy = new Telefon("Samsung", 1250, "złoty", "9\"");
+onePlus = new Telefon("OnePlus One", 250, "biały", "8\"");
 
 iPhone6S.printInfo();
 galaxy.printInfo();
